@@ -11,7 +11,7 @@
 #   --scope          project | user | system   where to write the statusLine setting
 #   --cache N        usage cache TTL seconds (default 60)
 #   --bar-len N      meter length in glyphs (default 8)
-#   --reserve N      columns kept clear at far right for Claude's own status (default 0)
+#   --reserve N      columns kept clear at far right for Claude's own status (default 20)
 #   --width-fallback N  terminal width to assume when it can't be probed (default 120)
 #   --help
 #
@@ -29,7 +29,7 @@ COMPOSE_DST="$BAR_DIR/compose.sh"
 REG="$BAR_DIR/parts.json"
 CTX_SCRIPT="$HOME/.claude/contextbar/statusline.sh"
 
-SCOPE=""; CACHE="60"; BAR_LEN="8"; RESERVE="0"; WIDTH_FALLBACK="120"
+SCOPE=""; CACHE="60"; BAR_LEN="8"; RESERVE="20"; WIDTH_FALLBACK="120"
 
 die() { echo "usagebar: $*" >&2; exit 1; }
 
