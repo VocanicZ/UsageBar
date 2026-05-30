@@ -1,3 +1,15 @@
+# ⚠️ DEPRECATED ⚠️
+
+**This repository is now part of the unified, cross-platform [vocanicz-ai-tools](https://github.com/VocanicZ/vocanicz-ai-tools).**
+
+Please use the new one-line installer for Windows and Linux:
+
+```bash
+npx github:VocanicZ/vocanicz-ai-tools --setup
+```
+
+---
+
 # UsageBar
 
 Claude **usage-limit meters** for the [Claude Code](https://claude.com/claude-code) status line —
